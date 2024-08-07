@@ -123,3 +123,85 @@ else:
     print ("you are old")
 
 
+#########################
+## for loops
+
+list1 = ['apples','bananas']
+tup1 = (2,4,5)
+
+for item in list1:
+    print (item)
+
+for item in tup1:
+    print (item)
+
+for i in range(1,2):
+    print (i)
+
+
+for i in range (1,4,2):
+    print (i)
+
+print("multiply loop")
+
+for x in range(1, 2):
+    for y in range(2, 4): print(x * y) 
+
+
+############
+##while loop
+
+print("while loop")
+c=0
+while c < 5:
+    if c==3: 
+        break
+    print(c)
+    c=c+1
+
+result=1
+try:
+    if result != 0:
+        print("success")
+except:
+    print("error")
+
+################
+###function
+
+print("Function...")
+
+def hello_world():
+    print("hello world")
+
+hello_world()
+
+def print_name(name):
+    print("name is " + name)
+
+print_name("giri")
+
+
+def add(num1, num2):
+    return num1 + num2
+
+
+total=add(1, 2)
+print(total)
+
+print(add(2, 4) * add(4, 8))
+
+###factorial number
+factorial=1
+num=5
+while num > 0:
+    factorial=num*factorial
+    num=num-1
+
+print(factorial)
+
+
+
+#############
+#OOPS
+
