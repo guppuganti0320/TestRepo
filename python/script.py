@@ -77,3 +77,5 @@ print(f"length of list {len(items)}")
 list_num=[5,2,10,25,11]
 print(max(list_num))
 print(min(list_num))
+
+print(list_num[1] * list_num[3])
